@@ -8,7 +8,8 @@ export default tseslint.config(
   { ignores: ['dist'] },
   {
     rules: {
-      'semi': ['error', 'always'],
+      "semi": ["error", "always"],
+      "semi-style": ["error", "last"],
     },
   },
   {
